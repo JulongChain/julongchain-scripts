@@ -23,7 +23,7 @@ echo " |_/   \_/  |___| \_/  |_| \|_| |___||  \__| ||  || ||  || |_| |_| \|_|"
 echo
 
 SC_DIR="/home/bcia/julongchain"
-CMD_PREFIX="java -Djava.ext.dirs=lib -jar /root/julongchain/julongchain.jar"
+CMD_PREFIX="java -jar /root/julongchain/julongchain.jar"
 SC_PATH=${SC_DIR}"/julongchain-sc-java"
 
 CONSENTER_ADDRESS="172.17.0.1:7050"
