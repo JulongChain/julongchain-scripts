@@ -65,7 +65,7 @@
 node:
 
     # The Node id is used for identifying this Node instance.
-    id: jdoe
+    id: node1
 
     # The networkId allows for logical seperation of networks
     networkId: dev

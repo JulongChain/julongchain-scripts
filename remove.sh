@@ -29,7 +29,9 @@ echo "Remove:"
 sudo docker rm $(docker ps -aq)
 
 echo "Remove image:"
-sudo docker rmi jdoe-mycc-1.0
+sudo docker rmi node1-mycc-1.0
+sudo docker rmi node2-mycc-1.0
+sudo docker rmi node3-mycc-1.0
 
 echo
 echo "===================== All Removed ====================="
