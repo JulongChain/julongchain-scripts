@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-FROM julongchain/julongchain-baseimage
+FROM julongchain/julongchain-baseimage:0.8-alpha
 COPY pom.xml /root/julongchain
 COPY src/ /root/julongchain/src
 WORKDIR /root/julongchain
