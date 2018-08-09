@@ -22,9 +22,13 @@ echo "  _|| ||_|| ||__ || || | |\ | | | |_|| ||__  ||__|| ||__|| | | | |\ | |"
 echo " |_/   \_/  |___| \_/  |_| \|_| |___||  \__| ||  || ||  || |_| |_| \|_|"
 echo
 
-sudo docker pull julongchain/julongchain-node:0.8-alpha
-sudo docker pull julongchain/julongchain-consenter:0.8-alpha
-sudo docker pull julongchain/julongchain-cli:0.8-alpha
+VERSION="0.8-alpha"
+
+sudo docker pull julongchain/julongchain-node:${VERSION}
+sudo docker pull julongchain/julongchain-consenter:${VERSION}
+sudo docker pull julongchain/julongchain-cli:${VERSION}
+sudo docker pull julongchain/julongchain-demo:${VERSION}
+sudo docker pull julongchain/julongchain-baseimage:${VERSION}
 
 echo
 echo "===================== All Downloaded ====================="

@@ -22,17 +22,17 @@ echo "  _|| ||_|| ||__ || || | |\ | | | |_|| ||__  ||__|| ||__|| | | | |\ | |"
 echo " |_/   \_/  |___| \_/  |_| \|_| |___||  \__| ||  || ||  || |_| |_| \|_|"
 echo
 
-
+SC_DIR="/home/bcia/julongchain"
 CMD_PREFIX="java -jar /root/julongchain/julongchain.jar"
-SC_PATH="/home/bcia/julongchain/julongchain-sc-java"
+SC_PATH=${SC_DIR}"/julongchain-sc-java"
 
-CONSENTER_ADDRESS="192.168.1.158:7050"
+CONSENTER_ADDRESS="172.17.0.1:7050"
 GROUP_NAME="myGroup"
 
 echo "CMD_PREFIX: "${CMD_PREFIX}
 echo "Group: "${GROUP_NAME}
 
-TARGET_NODES=("192.168.1.158:10051" "192.168.1.158:10151" "192.168.1.158:10251")
+TARGET_NODES=("172.17.0.1:10051" "172.17.0.1:10151" "172.17.0.1:10251")
 
 
 createGroup() {
