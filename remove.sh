@@ -33,6 +33,14 @@ sudo docker rmi node1-mycc-1.0
 sudo docker rmi node2-mycc-1.0
 sudo docker rmi node3-mycc-1.0
 
+sudo rm -rf /home/bcia/julongchain/node1/data
+sudo rm -rf /home/bcia/julongchain/node2/data
+sudo rm -rf /home/bcia/julongchain/node3/data
+
+sudo rm -rf /home/bcia/julongchain/node1/logs
+sudo rm -rf /home/bcia/julongchain/node2/logs
+sudo rm -rf /home/bcia/julongchain/node3/logs
+
 echo
 echo "===================== All Removed ====================="
 echo
