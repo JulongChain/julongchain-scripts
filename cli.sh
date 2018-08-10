@@ -22,7 +22,7 @@ echo "  _|| ||_|| ||__ || || | |\ | | | |_|| ||__  ||__|| ||__|| | | | |\ | |"
 echo " |_/   \_/  |___| \_/  |_| \|_| |___||  \__| ||  || ||  || |_| |_| \|_|"
 echo
 
-SC_DIR="/home/bcia/julongchain"
+SC_DIR="/home/bcia/julongchain/smartcontract"
 CMD_PREFIX="java -jar /root/julongchain/julongchain.jar"
 SC_PATH=${SC_DIR}"/julongchain-sc-java"
 
